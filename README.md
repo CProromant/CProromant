@@ -13,7 +13,7 @@ cost-trained models (MEPS 2021–2023).
   fairness in healthcare, computational psychiatry
 - Interested in computational neuroscience.
 
-**Stack:** Python (pandas, scikit-learn, LightGBM, SHAP) · R · SQL · survey statistics
+**Stack:** Python (pandas, scikit-learn, LightGBM, SHAP) · R · SQL 
 
-📫 <cproromant@gmail.com> · [LinkedIn](<www.linkedin.com/in/conradoproromant>) · Santiago, Chile
+📫 <cproromant@gmail.com> · (<www.linkedin.com/in/conradoproromant>) · Santiago, Chile
 

@@ -1,19 +1,86 @@
-# Conrado Proromant
+# Hi, I'm Conrado Proromant
 
-Physician (MD, UC)  Currently finishing an MSc in Data Science at UC.
+Physician (MD, Pontificia Universidad Católica de Chile) with an MSc in Data Science (ongoing).
 
-**Now building:** [risk-equity-audit](https://github.com/<usuario>/risk-equity-audit) —
-`riskaudit`, a label-choice bias audit toolkit for healthcare risk-stratification
-models, plus a reproducible case study: the mental-health blind spot of
-cost-trained models (MEPS 2021–2023).
+I build open-source tools and reproducible research at the intersection of medicine, machine learning and population health.
 
-**Background**
-- Six years in evidence synthesis at [Epistemonikos](https://www.epistemonikos.org)
-- Interests: population health management, real-world evidence, algorithmic
-  fairness in healthcare, computational psychiatry
-- Interested in computational neuroscience.
+---
 
-**Stack:** Python (pandas, scikit-learn, LightGBM, SHAP) · R · SQL 
+## Current project
 
-📫 <cproromant@gmail.com> · <www.linkedin.com/in/conradoproromant> · Santiago, Chile
+### RiskAudit
+
+An open-source toolkit for auditing healthcare risk-stratification models.
+
+Instead of asking *"How accurate is the model?"*, RiskAudit asks:
+
+> **"Who becomes invisible because of the label we chose?"**
+
+Current case study:
+- MEPS 2021–2023
+- Cost-based vs clinical targets
+- Mental health unmet need
+- Fairness and subgroup analysis
+- Reproducible pipeline
+
+→ Repository: https://github.com/...
+
+---
+
+## Research interests
+
+- Healthcare AI
+- Clinical prediction models
+- Algorithmic fairness
+- Population health
+- Computational psychiatry
+- Computational neuroscience
+- Causal inference
+
+---
+
+## Tech
+
+Python • pandas • scikit-learn • LightGBM • SHAP • XGBoost • R • SQL • Git
+
+---
+
+## Currently learning
+
+- Representation learning
+- Normative modeling
+- Graph neural networks
+- Foundation models for healthcare
+
+---
+
+## Open source philosophy
+
+I enjoy building projects that are:
+
+- reproducible
+- transparent
+- clinically meaningful
+- easy to extend
+
+If a paper cannot be reproduced, it is difficult to trust.
+
+---
+
+## Background
+
+- MD — Pontificia Universidad Católica de Chile
+- MSc Data Science — UC (ongoing)
+- Six years at Epistemonikos
+- Evidence synthesis and evidence-based medicine
+
+---
+
+## Contact
+
+LinkedIn
+
+Email
+
+Santiago, Chile
 

@@ -15,5 +15,5 @@ cost-trained models (MEPS 2021–2023).
 
 **Stack:** Python (pandas, scikit-learn, LightGBM, SHAP) · R · SQL 
 
-📫 <cproromant@gmail.com> · (<www.linkedin.com/in/conradoproromant>) · Santiago, Chile
+📫 <cproromant@gmail.com> · <www.linkedin.com/in/conradoproromant> · Santiago, Chile
 

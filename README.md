@@ -16,8 +16,6 @@ matters — cost instead of need, utilization instead of illness — the bias
 sits in the target variable, not in the features. Standard fairness metrics
 do not see it.
 
-→ **[github.com/conradoproromant/riskaudit]([https://github.com/CProromant/risk-equity-audit])**
-
 ## Background
 
 MD, Pontificia Universidad Católica de Chile

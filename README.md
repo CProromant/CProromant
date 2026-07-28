@@ -3,34 +3,40 @@
 Physician. I build open-source tools for health data.
 Santiago, Chile.
 
-### [`obsm`](https://github.com/CProromant/datos-salud-mental-chile) — Chile's mental health data, consolidated
+I work on what a dataset *doesn't* show you — and who goes missing in the gap.
 
-No comparable communal series for mental health exists in Chile. The public
-sources do — scattered across agencies, inconsistent between years, half of
-them stuck in PDF. `obsm` consolidates them and computes indicators nobody
-publishes. First series: communal suicide mortality, 2002–2023, 346
-communes, age-standardized and empirical-Bayes smoothed. One command.
+### [`obsm`](https://github.com/CProromant/datos-salud-mental-chile) — open data infrastructure for mental health in Chile
 
-The part I'd point at isn't the code. Five reconciliation anchors run
-before anything is written — 2023 deaths come out at 122,218, exact against
-the INE yearbook — and if one fails, nothing publishes. [Nine anomalies][q]
-are documented rather than quietly fixed. Five were my own bugs that threw
-no exception: zero suicides across 27 years, from reading the wrong
-diagnosis column. A commune that doesn't exist, because I validated the
-format of the code and not the code. Numbers that would have looked
-perfectly reasonable.
+Chile has no usable baseline for mental health. Without one, no public policy
+can be evaluated — budget, gaps, and priorities get decided on anecdote or on
+figures from a decade ago. The data exists; it's scattered across agencies,
+inconsistent between years, half of it locked in PDF.
 
-### [`riskaudit`](https://github.com/CProromant/risk-equity-audit) — bias in the label, not the features
+`obsm` is the infrastructure that baseline needs: public sources consolidated,
+normalized, and traceable, published by commune and by month, with provenance
+recorded for every dataset and every run. It's not a clinical app. It doesn't
+triage, doesn't touch identifiable patients, and doesn't replace anyone's
+judgment. It exists so that arguments about mental health policy can be
+settled with numbers.
 
-Equalized odds, demographic parity, calibration — all conditioned on Y. If
-Y is the corrupted object, they audit the model against the corruption and
-come back clean. Train on cost instead of need and the bias sits exactly
-where the metrics can't reach.
+First series: communal suicide mortality, 2002–2023. Published by grouper and
+never by method — a safe-publication rule the project holds itself to, on top
+of statistical secrecy. One command reproduces it, and it won't publish at all
+if its reconciliation anchors don't hold.
 
-Seven functions, design-based CIs, ~99% coverage. On MEPS 2021–2023: among
-the people a spend model deprioritizes, those in measured distress go on to
-generate spending above what the model predicted — need it was blind to,
-measured in the model's own currency, so the finding isn't circular.
+### [`riskaudit`](https://github.com/CProromant/risk-equity-audit) — auditing label-choice bias in risk stratification
+
+Health systems ration expensive programs with a model that decides who counts
+as high risk — usually defined as who will spend the most, because spending is
+recorded for everyone. Someone in real distress who never seeks care spends
+nothing, so the model reads zero and calls them low risk. The need was there;
+the label couldn't hold it.
+
+`riskaudit` is a tool for measuring that, and the tool is the point. Give it
+the scores a model produced and an independent measure of need, and it
+quantifies how much need the model leaves behind — weighted, with confidence
+intervals. It doesn't care what the model predicts or where: a hospital's
+readmission model, an insurer's cost model, a ministry's triage algorithm.
 
 ---
 

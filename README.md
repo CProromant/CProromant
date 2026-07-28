@@ -19,7 +19,7 @@ do not see it.
 ## Background
 
 MD, Pontificia Universidad Católica de Chile
-MSc Data Science, [institución] — in progress
+MSc Data Science, (UC CHILE) — in progress
 
 **Interests:** clinical prediction models · algorithmic fairness · computational psychiatry
 
